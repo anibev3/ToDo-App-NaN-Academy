@@ -48,33 +48,5 @@ Pour cela, vous pouvez utiliser
    - le widget ListView.builder pour afficher la liste des tâches 
    - et le widget CheckboxListTile pour permettre à l'utilisateur de cocher les tâches terminées.
 
-<!-- -------------------------------------------------------------------------------- -->
+<img width="388" alt="Capture d’écran 2023-03-02 à 22 53 06" src="https://user-images.githubusercontent.com/122437139/222578493-e3ca3fd2-17a4-4c9c-b630-0b68b9b88c8d.png">
 
-Très bien ! Pour commencer, vous devez installer Flutter sur votre machine si vous ne l'avez pas déjà fait. Vous pouvez suivre les instructions sur le site officiel de Flutter pour télécharger et installer Flutter.
-
-Ensuite, vous pouvez créer un nouveau projet Flutter dans votre éditeur de code. Pour cela, vous pouvez suivre les étapes suivantes :
-
-Ouvrez votre éditeur de code.
-Sélectionnez "New Project" ou "Créer un nouveau projet" selon votre éditeur de code.
-Choisissez "Flutter" comme type de projet.
-Entrez un nom pour votre projet et choisissez un emplacement pour l'enregistrer.
-Cliquez sur "Create" ou "Créer" pour créer votre projet.
-Une fois que vous avez créé votre projet, vous pouvez commencer à ajouter du code pour créer votre application de liste de tâches. Voici les étapes que vous pouvez suivre :
-
-Créez une nouvelle classe pour votre page d'accueil, où vous allez afficher la liste de tâches. Cette classe doit étendre la classe StatefulWidget.
-
-Créez une nouvelle classe pour votre état de page d'accueil, qui doit étendre la classe State.
-
-Ajoutez une variable de type List pour stocker vos tâches. Vous pouvez initialiser cette variable avec des données factices pour le moment.
-
-Créez un widget ListView pour afficher votre liste de tâches. Vous pouvez utiliser le widget ListView.builder pour créer dynamiquement des widgets pour chaque élément de la liste.
-
-Ajoutez un widget TextField pour permettre à l'utilisateur d'ajouter de nouvelles tâches. Vous pouvez ajouter une méthode pour gérer l'ajout de nouvelles tâches et mettre à jour la liste de tâches.
-
-Ajoutez un widget CheckboxListTile pour permettre à l'utilisateur de cocher les tâches qu'il a terminées. Vous pouvez ajouter une méthode pour mettre à jour l'état de la tâche sélectionnée.
-
-Enregistrez vos tâches dans une base de données à l'aide d'une bibliothèque telle que sqflite pour qu'elles soient persistantes.
-
-Une fois que vous avez terminé de créer votre application de liste de tâches, vous pouvez la tester en exécutant votre application sur un émulateur ou sur un appareil physique. Vous pouvez également déployer votre application sur l'App Store ou le Google Play Store pour que d'autres personnes puissent la télécharger et l'utiliser.
-
-N'oubliez pas de consulter la documentation de Flutter pour obtenir plus d'informations sur la création d'applications en Flutter. Bonne chance !
